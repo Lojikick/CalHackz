@@ -1,0 +1,55 @@
+body {
+    background: #b8f8ff;
+    font-size: 80%;
+    padding: 20px;
+  }
+  
+  main {
+    position: relative;
+    background: white;
+    height: 400px;
+    width: 60%;
+    margin: 0 auto;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+  }
+  
+  main div {
+    background: black;
+    color: white;
+    width: 200px;
+    height: 200px;
+    margin: -70px 0 0 -120px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+  }
+
+  h2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+  }
+
+  nav {
+    text-align: center;
+    background: white;
+    margin: 20px 0;
+    padding: 10px;
+  }
+  
+  nav button {
+    text-decoration: none;
+    background: #333;
+    border-radius: 5px;
+    color: white;
+    padding: 3px 8px;
+  }
+
+  #image {
+    display: block; /* Ensures the image is treated as a block-level element */
+    margin: 0 auto; /* Center horizontally by setting left and right margins to auto */
+    text-align: center; /* Center any inline content (if present) horizontally */
+    max-width: 100%; /* Ensure the image does not exceed its container's width */
+  }
